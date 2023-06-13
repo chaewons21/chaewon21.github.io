@@ -7,8 +7,12 @@ from scipy import signal
 
 import streamlit as st
 
+
+# Streamlit 앱 구성
+st.title('202021053 이채원')
+
 def main():
-    st.title('Step and Bode Plot')
+    st.header('Step and Bode Plot')
     
     # 전달함수 계수
     num = [100]
