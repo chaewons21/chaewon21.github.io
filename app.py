@@ -7,6 +7,9 @@ from scipy import signal
 
 import streamlit as st
 
+st.set_page_config(
+    page_title="leechaewon page",
+)
 
 # Streamlit 앱 구성
 st.title('202021053 이채원')
